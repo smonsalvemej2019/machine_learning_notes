@@ -76,4 +76,8 @@ sometimes statistics is not enough information.
 5. Visualization: Good tool to show relationships.
 
 
+### Examples of EDA 
+
+https://github.com/fau-masters-collected-works-cgarbin/ieee-icmla-2019-data-science-tutorial
+
 
