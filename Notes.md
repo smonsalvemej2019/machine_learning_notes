@@ -81,3 +81,61 @@ sometimes statistics is not enough information.
 https://github.com/fau-masters-collected-works-cgarbin/ieee-icmla-2019-data-science-tutorial
 
 
+# Fundamentals of Machine Learning and Model Thinking
+
+## Textbook Link
+
+https://learning.oreilly.com/library/view/introduction-to-machine/9781449369880/
+
+## Why Machine Learning? 
+
+The difference between hardcoded rules vs learning by example. 
+
+If something changes in the domain of the problem then the code to find the solution changes. 
+Ml tries to get rid of this problem.
+
+
+## What are probs ML can solve
+
+    -Spam.
+    -Zip Code recognition.
+    -Detect fraud.
+
+### Unsupervised Learning
+
+Unorganized data hoping to get a pattern out of it called a clustering solution.
+
+Think of a deck of cards and we ask for cluster solution to break down the deck onto their respective colors, or their values, or numbered cards against face cards, or organize by suite, etc.
+    
+    - If we organize by color we would get two clusters: Black and red.
+    - If we organize by value we would get clusters of Aces, 2s, 3s, etc.
+    - If we organize by face vs numbered we would ger two clusters
+    - If we organize by suite we would get four clusters. 
+
+### Supervised Learning
+
+Based on input and output. It comes in two types of problems:
+
+    - Classification: Predict a label, class, category, or group placement.
+    - Regression: Predictions with continuous value. 
+
+## Example Questions.
+
+1. A problem ML can solve.
+    - Classification problems.
+
+2. An example of a problem ML cannot solve.
+    - Doing anything the first time. Emotional interpretation. Ethics.
+
+3. What is learning in the context of machine learning.
+    - Pattern recognition.
+
+4. dif between **supervised** and **unsupervised** learning.
+    -
+
+5. Example of **supervised** learning.
+    -
+
+6. Example of **unsupervised** learning.
+    -
+
