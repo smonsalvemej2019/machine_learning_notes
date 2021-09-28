@@ -133,14 +133,14 @@ Based on input and output. It comes in two types of problems:
 
 3. What is learning in the context of machine learning.
 
-    - Pattern recognition.
+- Pattern recognition.
 
 4. dif between **supervised** and **unsupervised** learning.
-    -
+- Supervised is training trough giving data and the answer to the problem (labeled data). Unsupervised is training by just feeding it the data.
 
 5. Example of **supervised** learning.
-    -
+- 
 
 6. Example of **unsupervised** learning.
-    -
+- 
 
