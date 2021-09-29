@@ -161,3 +161,13 @@ Based on input and output. It comes in two types of problems:
 
 10. How do we decide which algorithm should we use?     
 
+
+## More Questions!
+
+1. Validation vs training sets.
+
+- Training is to teach the model. Validation is to make sure the model works. Training
+
+2. Whats the diff between K-fold (cross) validation vs holdout validation.
+
+- Hold out splits the data in such a way that is fixed. K-fold rotates trough different blocks of the data. 
