@@ -136,11 +136,28 @@ Based on input and output. It comes in two types of problems:
 - Pattern recognition.
 
 4. dif between **supervised** and **unsupervised** learning.
+
 - Supervised is training trough giving data and the answer to the problem (labeled data). Unsupervised is training by just feeding it the data.
 
 5. Example of **supervised** learning.
-- 
+
+- We want our AI to identify dogs in pictures so we trained it by providing labeled pictures with and without dogs. The AI will learn by example.
 
 6. Example of **unsupervised** learning.
-- 
+
+- We want our AI to recognize patterns in our costumer database so we feed it the data and see if it recognizes anything.
+
+7. Diff between **tabular** data and **raw** data.
+
+- Tabular is data is in tables. Raw data is more abstract: Think of machine vision trying to recognize patterns in pictures. Raw and tabular data are just the structures of the data.
+
+8. What is a sample in the context of Data Science and Machine Learning.
+
+- Having enough data of a population to be able to do something with it.
+
+9. What is a feature? What are other names of features?
+
+- Other names are properties, variables, columns, and attributes. Think of the columns of a table, each table is a feature of the data sample 
+
+10. How do we decide which algorithm should we use?     
 
