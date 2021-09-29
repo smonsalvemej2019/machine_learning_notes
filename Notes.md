@@ -206,6 +206,19 @@ Based on input and output. It comes in two types of problems:
 
 7. Regularize your model, tune your hyperparameters. 
 
+### Geron
 
+1. look at the big picture.
 
+2. Get data.
+
+3. Discover and visualize data. 
+
+4. Select a model to train.
+
+5. Fine tune the model.
+
+6. Present your solution.
+
+7. Launch, monitor, and maintain your system. 
 
