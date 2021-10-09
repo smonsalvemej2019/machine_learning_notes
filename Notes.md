@@ -1,6 +1,6 @@
 # What is machine learning?
 
-Machine learning is about learning patterns not rules. For example we have a machine that can do typed arithmetic and we feed it "two plu two". The machine might give us the right answer, but it does not know the rules of arithmetic, it knows a common pattern.
+Machine learning is about learning patterns not rules. For example we have a machine that can do typed arithmetic and we feed it "two plus two". The machine might give us the right answer, but it does not know the rules of arithmetic, it knows a common pattern.
 
 When dealing with machine learning, do not reinvent the wheel. Use the pre-existing tools, examples, and libraries.
 
@@ -94,10 +94,10 @@ https://learning.oreilly.com/library/view/introduction-to-machine/9781449369880/
 The difference between hardcoded rules vs learning by example. 
 
 If something changes in the domain of the problem then the code to find the solution changes. 
-Ml tries to get rid of this problem.
+machine learning tries to get rid of this problem.
 
 
-## What are probs ML can solve
+## What are problems ML can solve
 
 - Spam.
 - Zip Code recognition.
@@ -111,7 +111,7 @@ Think of a deck of cards and we ask for cluster solution to break down the deck 
     
 - If we organize by color we would get two clusters: Black and red.
 - If we organize by value we would get clusters of Aces, 2s, 3s, etc.
-- If we organize by face vs numbered we would ger two clusters
+- If we organize by face vs numbered we would get two clusters
 - If we organize by suite we would get four clusters. 
 
 ### Supervised Learning
@@ -168,9 +168,59 @@ Based on input and output. It comes in two types of problems:
 
 - Training is to teach the model. Validation is to make sure the model works. Training
 
-2. Whats the diff between K-fold (cross) validation vs holdout validation.
+2. What is the diff between K-fold (cross) validation vs holdout validation.
 
 - Hold out splits the data in such a way that is fixed. K-fold rotates trough different blocks of the data. 
+
+3. What is the golden rule for evaluation two machine learning models?
+
+- Do not use the same data to test and to train.
+
+4. Which metrics can be used to evaluate the (prediction) res of a machine learning model?
+
+- Accuracy, precision, specificity, F1, etc. The closer to 1 (100%) is better.
+
+## Practical hints
+
+- Machine learning is all about repetition. Have an idea write the code experiment repeat. Iteration is very important.
+
+- If your dev set and metrics do not point to the right direction. Change them. Do not be afraid to change metric and add data if needed.
+
+- Put time into error analysis. It does not need to be fancy mathematical formulas, eyeballing the results can give you a lot of information about your model. Is there a problem with the data? your model? the labels on the data?
+
+## Recipes for machine learning
+
+### Chollet
+
+1. Def the problem.
+
+2. Chose measure of success.
+
+3. Decide evaluation protocol. 
+
+4. Prep the data.
+
+5. Develop model that does better than baseline.
+
+6. Scale up: Dev a model that over-fits. 
+
+7. Regularize your model, tune your hyperparameters. 
+
+### Geron
+
+1. look at the big picture.
+
+2. Get data.
+
+3. Discover and visualize data. 
+
+4. Select a model to train.
+
+5. Fine tune the model.
+
+6. Present your solution.
+
+7. Launch, monitor, and maintain your system. 
 
 # Supervised learning
 
