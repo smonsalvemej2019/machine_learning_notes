@@ -171,3 +171,15 @@ Based on input and output. It comes in two types of problems:
 2. Whats the diff between K-fold (cross) validation vs holdout validation.
 
 - Hold out splits the data in such a way that is fixed. K-fold rotates trough different blocks of the data. 
+
+# Supervised learning
+
+There is a sweet spot when training the model. Imagine you learn the answers for a test but you cannot used the knowledge. We wan a middle point between accuracy and generalization. 
+
+## Algorithms
+
+- K-Nearest Neighbor: Labeling new data based on the neighboring points of the data. The classification might change depending on how many neighbors the algorithm looks at.
+
+    - Strength: Easy to understand and implement fairly accurate. Good to use before moving to a more complex solution. 
+
+    -Weakness: It can be computational expensive if the dataset is large. Can get really slow.
