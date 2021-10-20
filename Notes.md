@@ -233,3 +233,20 @@ There is a sweet spot when training the model. Imagine you learn the answers for
     - Strength: Easy to understand and implement fairly accurate. Good to use before moving to a more complex solution. 
 
     -Weakness: It can be computational expensive if the dataset is large. Can get really slow.
+    
+## Review
+
+- What does all supervised learning has in common?
+
+    - labeled data
+
+- Linear regression vs logistic regression
+
+    - linear regression can produce any advritary number. logistic regression uses squashing functions, generally produces values between 0 and 1; It also gives a level of             confidence.
+
+- What can we learn from random forests?
+    - Rand trees can show that some features are more important for your model than you thought.
+    - A collection of weak clasifiers can perform better than a single strong clasifier.
+   
+- How does libraries help write reusable code?
+    -  Do not reinvent the wheel! The code is also very standarized. it also simplifes the process of writing models.
